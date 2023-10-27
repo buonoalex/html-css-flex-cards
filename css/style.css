@@ -11,6 +11,10 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    text-transform: uppercase;
+}
+
 
 
 /* Classi */
@@ -50,8 +54,9 @@ h1{
 .flex-block{
     display: flex;
     background-color: black;
-    width: 30%;
+    width: 25%;
     gap: 10px;
+    box-shadow:  10px 15px 30px black;
 }
 
 .text-white{
@@ -69,13 +74,19 @@ h1{
 }
 
 .flex-block-text{
-    width: 60%;
-    background-color:blueviolet;
+   
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
 }
 
 .flex-block-picture{
-    width: 40%;
+  
     background-color: aquamarine;
+    display: flex;
+    justify-content: baseline;
 }
 
 /* ID */
