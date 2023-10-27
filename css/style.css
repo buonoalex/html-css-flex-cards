@@ -6,6 +6,9 @@
 }
 
 /* TAG */
+h1{
+    color: rgb(226, 58, 153);
+}
 
 
 /* Classi */
@@ -64,8 +67,12 @@
     font-weight: bold;
 }
 
-.pad20{
+.padr20{
     padding-right: 20px;
+}
+
+.pad10{
+    padding: 10px;
 }
 
 .width300{
