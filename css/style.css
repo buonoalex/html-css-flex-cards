@@ -63,15 +63,14 @@ h1{
 }
 
 .photo-set{
-    width: 100%;
+    width: auto;
     height: 100px;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .flex-block-text{
     width: 60%;
     background-color:blueviolet;
-    align-self: center;
 }
 
 .flex-block-picture{
