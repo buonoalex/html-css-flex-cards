@@ -30,6 +30,14 @@
     margin-bottom: 30px;
 }
 
+.flex{
+    display: flex;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
 /* ID */
 
 #main-container{
@@ -38,4 +46,10 @@
     margin: 0 auto;
     padding: 25px;
     
+}
+
+#flex-container{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
 }
