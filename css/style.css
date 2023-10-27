@@ -22,6 +22,15 @@
     background-color: yellow;
 }
 
+.bg-purple{
+    background-color: purple;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+
 .text-center{
     text-align: center;
 }
@@ -34,15 +43,20 @@
     display: flex;
 }
 
-.inline-block{
-    display: inline-block;
+.flex-block{
+    display: flex;
+    align-items: center;
 }
 
+.gap-20{
+    gap: 20px;
+
+}
 /* ID */
 
 #main-container{
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 25px;
     
@@ -50,6 +64,12 @@
 
 #flex-container{
     display: flex;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#foto-set{
+    width: 100px;
 }
