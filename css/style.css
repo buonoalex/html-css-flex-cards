@@ -30,6 +30,10 @@
     background-color: gray;
 }
 
+.bg-black{
+    background-color: black;
+}
+
 
 .text-center{
     text-align: center;
@@ -48,26 +52,51 @@
     align-items: center;
 }
 
-.gap-20{
-    gap: 20px;
+.height60{
+    height: 60px;
+}
+
+.text-white{
+    color: white;
+}
+
+.bond-text{
+    font-weight: bold;
+}
+
+.pad20{
+    padding-right: 20px;
+}
+
+.width300{
+    width: 300px;
 
 }
+
+.width200{
+    width: 200px;
+
+}
+
+
 /* ID */
 
 #main-container{
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding: 25px;
-    
+
 }
 
 #flex-container{
     display: flex;
-    width: 70%;
+    gap: 40px;
+    width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 25px;
 }
 
 #foto-set{
