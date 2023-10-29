@@ -15,7 +15,8 @@ h2{
     text-transform: uppercase;
 }
 
-body{
+
+header , main{
     background-color: rgb(194, 184, 237);
 }
 
@@ -143,4 +144,12 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 25px;   
+}
+
+#footer-flex{
+    display: flex;
+    justify-content : center;
+    padding: 50px;
+    height: auto;
+    background-color: rgb(76, 60, 91);
 }
