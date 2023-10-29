@@ -1,5 +1,6 @@
 /* RESET */
-*{
+
+* { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,10 +17,13 @@ h2{
 }
 
 
-header , main{
+header , main {
     background-color: rgb(194, 184, 237);
 }
 
+body{
+    background-color: rgb(76, 60, 91); 
+}
 
 /* Classi */
 
@@ -131,6 +135,7 @@ header , main{
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 25px;
+    padding-bottom: 100px;
 }
 
 #logo{
@@ -150,6 +155,7 @@ header , main{
     display: flex;
     justify-content : center;
     padding: 50px;
+    margin-top: 40px;
     height: auto;
     background-color: rgb(76, 60, 91);
 }
