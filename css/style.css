@@ -16,8 +16,15 @@ h2{
     text-transform: uppercase;
 }
 
+header {
+    background-color: rgb(194, 184, 237);
+    animation-name: sfondo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 
-header , main {
+
+main {
     background-color: rgb(194, 184, 237);
 }
 
@@ -106,11 +113,12 @@ body{
     height: 150px;
 }
 
-.border-text-header{
+.border-text-header:hover , .border-text-header:active{
     border: 2px solid white;
     border-radius: 20px;
     padding: 10px;
     box-shadow: 10px 17px 30px purple;
+    font-size: 150%;
 }
 
 .flex-wrap{
@@ -159,3 +167,24 @@ body{
     height: auto;
     background-color: rgb(76, 60, 91);
 }
+
+/* ANIMATION */
+
+@keyframes sfondo{
+    0% {
+        background-color: rgb(194, 184, 237);
+    }
+
+    25% {
+        background-color: rgb(76, 60, 91);
+    }
+
+    50%{
+        background-color: bisque;
+    }
+
+    100%{
+        background-color: aquamarine;
+    }
+}
+
